@@ -1,3 +1,3 @@
-# quarto-GT-pyopensci-exercises
+# quarto-scipy24-exercises
 
-Exercises for the Reproducible reports and presentations with [Quarto and Great Tables workshop](https://tracykteal.github.io/quarto-GT-pyopensci/) at pyOpenSci Fall Festival 2024
+Exercises for the "Unlocking Dynamic Reproducible Documents: A Quarto Tutorial for Scientific Communication" tutorial at SciPy 2024.

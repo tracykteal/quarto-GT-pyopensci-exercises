@@ -1,0 +1,27 @@
+---
+format: html
+---
+
+# Playground file for Quarto and Great Tables workshop
+
+## Get set up
+
+* Install the Quarto extension
+* Install the Quarto CLI https://quarto.org/docs/download/tarball.html
+* Install the Preview extension
+
+
+### Install some Python packages
+
+```{python}
+!pip install great_tables
+!pip install polars
+!pip install pandas
+!pip install selenium
+```
+
+### Write some code
+
+```{python}
+1+1
+```
