@@ -13,6 +13,13 @@ Meet the Palmer Penguins!
 For this analysis we'll use a few packages for visualization and data display.
 
 ```{python}
+#| label: install-packages
+!pip install great_tables
+!pip install plotnine
+!pip install palmerpenguins
+```
+
+```{python}
 #| label: import-packages
 import great_tables as gt
 import plotnine as p9
