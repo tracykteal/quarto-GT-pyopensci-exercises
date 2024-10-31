@@ -1,0 +1,55 @@
+---
+format: html
+---
+
+# Set up Codespaces for working with Quarto
+
+## Install the Quarto CLI
+Install the Quarto CLI from [tarball](https://quarto.org/docs/download/tarball.html).
+
+At the Terminal
+
+1. Get the files  
+`wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.5.57/quarto-1.5.57-linux-amd64.tar.gz`
+
+2. Extract Files
+
+Extract the contents of the tarball to a location where you typically install software (e.g. ~/opt). 
+
+`mkdir ~/opt`
+`tar -C ~/opt -xvzf quarto-1.5.57-linux-amd64.tar.gz`
+
+3. Create a Symlink
+
+Create a symlink to bin/quarto in a folder that is in your path. 
+
+`ln -s ~/opt/quarto-1.5.57/bin/quarto ~/.local/bin/quarto`
+
+4. Check The Installation
+
+Use quarto check to confirm that the installation is successful:
+
+`quarto check`
+
+## Install some VSCode Extensions
+
+* Install the Quarto extension
+* Install the Jupyter extension
+* Install the Preview extension
+
+
+### Install some Python packages
+
+```{python}
+!pip install great_tables
+!pip install polars
+!pip install pandas
+!pip install selenium
+!pip install palmerpenguins
+```
+
+### Write some code
+
+```{python}
+1+1
+```
