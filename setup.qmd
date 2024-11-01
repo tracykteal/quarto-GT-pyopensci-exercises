@@ -7,7 +7,6 @@ format: html
 This file installs some packages and tests that we can render a Quarto file. 
 
 
-
 ### Install some Python packages
 
 ```{python}
